@@ -148,14 +148,15 @@ img {
 }
 
 .nav__link_active:hover {
-  transform: none;
-  box-shadow: none;
+  
   background-color: rgba(200, 26, 26, 0.4);
   background: linear-gradient(
     to top,
     rgba(200, 26, 26, 0.55),
     rgba(196, 66, 66, 0.55)
   );
+  transform: none;
+  box-shadow: none;
 }
 
 .cover__title_style {
